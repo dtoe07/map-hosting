@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59503fad920fdd5d50e01f120bb6bf74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59503fad920fdd5d50e01f120bb6bf74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59503fad920fdd5d50e01f120bb6bf74 = L.map(
+                "map_59503fad920fdd5d50e01f120bb6bf74",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e7079580191004f434847fb1e6a14183 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e7079580191004f434847fb1e6a14183.addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+            var marker_0d3e0e0ac4a943d007ee23cc2228f990 = L.marker(
+                [45.533411, -122.556427],
+                {
+}
+            ).addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+        var popup_49290605c6115385708db8332aaf5561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_160fcf8f46daa399143256d18e0727cd = $(`<div id="html_160fcf8f46daa399143256d18e0727cd" style="width: 100.0%; height: 100.0%;">Gateway Liquor, 10320, Northeast Halsey Street, Parkrose Heights, Portland, Multnomah County, Oregon, 97220, United States of America</div>`)[0];
+                popup_49290605c6115385708db8332aaf5561.setContent(html_160fcf8f46daa399143256d18e0727cd);
+            
+        
+
+        marker_0d3e0e0ac4a943d007ee23cc2228f990.bindPopup(popup_49290605c6115385708db8332aaf5561)
+        ;
+
+        
+    
+    
+            var marker_1e74493d3d80720dcc7bd137defc788d = L.marker(
+                [45.499052291503, -122.58030572095],
+                {
+}
+            ).addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+        var popup_cf7a472a4396a37b3dd23efa1bcb1339 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_580f5c337c92d94812acc45c38e6ce54 = $(`<div id="html_580f5c337c92d94812acc45c38e6ce54" style="width: 100.0%; height: 100.0%;">8001 SE Powell Blvd, Suite B, Portland, Oregon, 97206</div>`)[0];
+                popup_cf7a472a4396a37b3dd23efa1bcb1339.setContent(html_580f5c337c92d94812acc45c38e6ce54);
+            
+        
+
+        marker_1e74493d3d80720dcc7bd137defc788d.bindPopup(popup_cf7a472a4396a37b3dd23efa1bcb1339)
+        ;
+
+        
+    
+    
+            var marker_4f6bdb09028fe2542342c3f4ec0988a4 = L.marker(
+                [45.5347417, -122.6951678],
+                {
+}
+            ).addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+        var popup_c9266175b7348fe980a6145e86671a6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3eaa17985db29faa4ad3d71566a8a4e6 = $(`<div id="html_3eaa17985db29faa4ad3d71566a8a4e6" style="width: 100.0%; height: 100.0%;">Proof Wines & Spirits, 1685, Northwest 21st Avenue, Slabtown, Northwest District, Portland, Multnomah County, Oregon, 97210, United States of America</div>`)[0];
+                popup_c9266175b7348fe980a6145e86671a6b.setContent(html_3eaa17985db29faa4ad3d71566a8a4e6);
+            
+        
+
+        marker_4f6bdb09028fe2542342c3f4ec0988a4.bindPopup(popup_c9266175b7348fe980a6145e86671a6b)
+        ;
+
+        
+    
+    
+            var marker_45e5dac834d12ad37c3adf86bfa94713 = L.marker(
+                [45.50848327368, -122.679523901399],
+                {
+}
+            ).addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+        var popup_04ed08e6db4de03b21166d7f14397399 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11752435898f1b67c17d80ff5a7e9049 = $(`<div id="html_11752435898f1b67c17d80ff5a7e9049" style="width: 100.0%; height: 100.0%;">2075 SW 1st Ave, Portland, Oregon, 97201</div>`)[0];
+                popup_04ed08e6db4de03b21166d7f14397399.setContent(html_11752435898f1b67c17d80ff5a7e9049);
+            
+        
+
+        marker_45e5dac834d12ad37c3adf86bfa94713.bindPopup(popup_04ed08e6db4de03b21166d7f14397399)
+        ;
+
+        
+    
+    
+            var marker_36c6352e82e836c354556e81bbb1df08 = L.marker(
+                [45.407381715518, -122.564697471496],
+                {
+}
+            ).addTo(map_59503fad920fdd5d50e01f120bb6bf74);
+        
+    
+        var popup_85eae01e47d48297b967c9144b2a2e4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_669aab793d63229f1b7f302fc0c23029 = $(`<div id="html_669aab793d63229f1b7f302fc0c23029" style="width: 100.0%; height: 100.0%;">SE Highway 212, Clackamas, Oregon, 97015</div>`)[0];
+                popup_85eae01e47d48297b967c9144b2a2e4e.setContent(html_669aab793d63229f1b7f302fc0c23029);
+            
+        
+
+        marker_36c6352e82e836c354556e81bbb1df08.bindPopup(popup_85eae01e47d48297b967c9144b2a2e4e)
+        ;
+
+        
+    
+</script>
+</html>
