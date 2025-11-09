@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bbd0916645218900093e434ccced68c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bbd0916645218900093e434ccced68c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bbd0916645218900093e434ccced68c2 = L.map(
+                "map_bbd0916645218900093e434ccced68c2",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4109cd7d507a2f8bc3768f494e05dbba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4109cd7d507a2f8bc3768f494e05dbba.addTo(map_bbd0916645218900093e434ccced68c2);
+        
+    
+            var marker_381d911c52d561be41bb5b8a26d0d541 = L.marker(
+                [45.407381715518, -122.564697471496],
+                {
+}
+            ).addTo(map_bbd0916645218900093e434ccced68c2);
+        
+    
+        var popup_b4dbf34e76f9c3a26ee0a5856dd6640e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab942c6413501a8375b6f126a50084bb = $(`<div id="html_ab942c6413501a8375b6f126a50084bb" style="width: 100.0%; height: 100.0%;">SE Highway 212, Clackamas, Oregon, 97015</div>`)[0];
+                popup_b4dbf34e76f9c3a26ee0a5856dd6640e.setContent(html_ab942c6413501a8375b6f126a50084bb);
+            
+        
+
+        marker_381d911c52d561be41bb5b8a26d0d541.bindPopup(popup_b4dbf34e76f9c3a26ee0a5856dd6640e)
+        ;
+
+        
+    
+    
+            var marker_33d48bb9ed90b621159f9434bbd0d3be = L.marker(
+                [45.390785382939, -122.623772473747],
+                {
+}
+            ).addTo(map_bbd0916645218900093e434ccced68c2);
+        
+    
+        var popup_11f3b37e5db30f18f61dc82e0829d439 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2dd101b9694eb6aaeca0e2d4d97a061f = $(`<div id="html_2dd101b9694eb6aaeca0e2d4d97a061f" style="width: 100.0%; height: 100.0%;">SE Willamette Dr, Portland, Oregon, 97267</div>`)[0];
+                popup_11f3b37e5db30f18f61dc82e0829d439.setContent(html_2dd101b9694eb6aaeca0e2d4d97a061f);
+            
+        
+
+        marker_33d48bb9ed90b621159f9434bbd0d3be.bindPopup(popup_11f3b37e5db30f18f61dc82e0829d439)
+        ;
+
+        
+    
+    
+            var marker_83f14e72e7d841da1361bfdb0b056c3e = L.marker(
+                [45.516018, -122.681425],
+                {
+}
+            ).addTo(map_bbd0916645218900093e434ccced68c2);
+        
+    
+        var popup_3e9cca52fe233935a0e4d7c8390d71a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6d286527ea71e0871fc4f44903a6304 = $(`<div id="html_e6d286527ea71e0871fc4f44903a6304" style="width: 100.0%; height: 100.0%;">Portland, Oregon</div>`)[0];
+                popup_3e9cca52fe233935a0e4d7c8390d71a3.setContent(html_e6d286527ea71e0871fc4f44903a6304);
+            
+        
+
+        marker_83f14e72e7d841da1361bfdb0b056c3e.bindPopup(popup_3e9cca52fe233935a0e4d7c8390d71a3)
+        ;
+
+        
+    
+    
+            var marker_d1932f33b46ddec0f064a3049ad0cdae = L.marker(
+                [45.517781402691, -122.562754434795],
+                {
+}
+            ).addTo(map_bbd0916645218900093e434ccced68c2);
+        
+    
+        var popup_92633d0f437ae0b33d36e88ed5435ce5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dec5b9a42438030749e049ac41e264e = $(`<div id="html_9dec5b9a42438030749e049ac41e264e" style="width: 100.0%; height: 100.0%;">9738 SE Washington St, Suite S, Portland, Oregon, 97216</div>`)[0];
+                popup_92633d0f437ae0b33d36e88ed5435ce5.setContent(html_9dec5b9a42438030749e049ac41e264e);
+            
+        
+
+        marker_d1932f33b46ddec0f064a3049ad0cdae.bindPopup(popup_92633d0f437ae0b33d36e88ed5435ce5)
+        ;
+
+        
+    
+</script>
+</html>
