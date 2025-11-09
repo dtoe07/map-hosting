@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48f52d9ac87019c69be071be93b02b28 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_48f52d9ac87019c69be071be93b02b28" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48f52d9ac87019c69be071be93b02b28 = L.map(
+                "map_48f52d9ac87019c69be071be93b02b28",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6881f9c77b0c4905f7b461d604b377f3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6881f9c77b0c4905f7b461d604b377f3.addTo(map_48f52d9ac87019c69be071be93b02b28);
+        
+    
+            var marker_918b6e3bc9125ca0ecea2ab04dbcf743 = L.marker(
+                [45.476423791387, -122.824574407168],
+                {
+}
+            ).addTo(map_48f52d9ac87019c69be071be93b02b28);
+        
+    
+        var popup_e7f2f8916cc22148f9086a13939b2826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cc18b4da9275e2e95beb86ab3421514 = $(`<div id="html_7cc18b4da9275e2e95beb86ab3421514" style="width: 100.0%; height: 100.0%;">14334 SW Allen Blvd, Beaverton, Oregon, 97005</div>`)[0];
+                popup_e7f2f8916cc22148f9086a13939b2826.setContent(html_7cc18b4da9275e2e95beb86ab3421514);
+            
+        
+
+        marker_918b6e3bc9125ca0ecea2ab04dbcf743.bindPopup(popup_e7f2f8916cc22148f9086a13939b2826)
+        ;
+
+        
+    
+    
+            var marker_9f466586f36530deaa8fae32fe5730cb = L.marker(
+                [45.50848327368, -122.679523901399],
+                {
+}
+            ).addTo(map_48f52d9ac87019c69be071be93b02b28);
+        
+    
+        var popup_bfe7c9595502374604971af80ac3bc33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31814017d87ebcf9ac25f8fbc3860471 = $(`<div id="html_31814017d87ebcf9ac25f8fbc3860471" style="width: 100.0%; height: 100.0%;">2075 SW 1st Ave, Portland, Oregon, 97201</div>`)[0];
+                popup_bfe7c9595502374604971af80ac3bc33.setContent(html_31814017d87ebcf9ac25f8fbc3860471);
+            
+        
+
+        marker_9f466586f36530deaa8fae32fe5730cb.bindPopup(popup_bfe7c9595502374604971af80ac3bc33)
+        ;
+
+        
+    
+</script>
+</html>

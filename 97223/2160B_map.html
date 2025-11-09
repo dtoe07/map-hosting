@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ad4658b6c533ec7fec490fc7da4c227 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9ad4658b6c533ec7fec490fc7da4c227" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9ad4658b6c533ec7fec490fc7da4c227 = L.map(
+                "map_9ad4658b6c533ec7fec490fc7da4c227",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c1ef69f0f0cb1815011f39995c77b10f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c1ef69f0f0cb1815011f39995c77b10f.addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+            var marker_1920e17e7f66d9d02b1ddd078dc6b521 = L.marker(
+                [45.48114251135, -122.857075996165],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_fbc7a87cb9fc4b25d58e6ac6760160c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e184944be1bb297cb11b47a6729a536 = $(`<div id="html_1e184944be1bb297cb11b47a6729a536" style="width: 100.0%; height: 100.0%;">17455 SW Farmington Rd, Suite 30 A, Beaverton, Oregon, 97007</div>`)[0];
+                popup_fbc7a87cb9fc4b25d58e6ac6760160c5.setContent(html_1e184944be1bb297cb11b47a6729a536);
+            
+        
+
+        marker_1920e17e7f66d9d02b1ddd078dc6b521.bindPopup(popup_fbc7a87cb9fc4b25d58e6ac6760160c5)
+        ;
+
+        
+    
+    
+            var marker_fa7e103f98e614057869b667bca833de = L.marker(
+                [45.5268176, -122.8161676],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_d3353f3779d09e3d491719fa3808fa0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_258005c18de2e2b2ccf78a20eb348a94 = $(`<div id="html_258005c18de2e2b2ccf78a20eb348a94" style="width: 100.0%; height: 100.0%;">Cedar Mill Liquor, 13528, Northwest Cornell Road, Five Oaks/Triple Creek, Portland, Washington County, Oregon, 97229, United States of America</div>`)[0];
+                popup_d3353f3779d09e3d491719fa3808fa0d.setContent(html_258005c18de2e2b2ccf78a20eb348a94);
+            
+        
+
+        marker_fa7e103f98e614057869b667bca833de.bindPopup(popup_d3353f3779d09e3d491719fa3808fa0d)
+        ;
+
+        
+    
+    
+            var marker_064a7bed98768927ab7e2608c1c3314b = L.marker(
+                [45.50848327368, -122.679523901399],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_1448ba628f987b8093d9a259cf22f511 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ac1318600765c0355b1adb812f64c5e = $(`<div id="html_2ac1318600765c0355b1adb812f64c5e" style="width: 100.0%; height: 100.0%;">2075 SW 1st Ave, Portland, Oregon, 97201</div>`)[0];
+                popup_1448ba628f987b8093d9a259cf22f511.setContent(html_2ac1318600765c0355b1adb812f64c5e);
+            
+        
+
+        marker_064a7bed98768927ab7e2608c1c3314b.bindPopup(popup_1448ba628f987b8093d9a259cf22f511)
+        ;
+
+        
+    
+    
+            var marker_31d682a94a866999d725e4b6e43a9008 = L.marker(
+                [45.5347417, -122.6951678],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_fec4fb965ddc8c538e1e1f5a9b17b831 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c079525a2d4b30beea1b48cb5d827e = $(`<div id="html_b4c079525a2d4b30beea1b48cb5d827e" style="width: 100.0%; height: 100.0%;">Proof Wines & Spirits, 1685, Northwest 21st Avenue, Slabtown, Northwest District, Portland, Multnomah County, Oregon, 97210, United States of America</div>`)[0];
+                popup_fec4fb965ddc8c538e1e1f5a9b17b831.setContent(html_b4c079525a2d4b30beea1b48cb5d827e);
+            
+        
+
+        marker_31d682a94a866999d725e4b6e43a9008.bindPopup(popup_fec4fb965ddc8c538e1e1f5a9b17b831)
+        ;
+
+        
+    
+    
+            var marker_41619824f931c63b98b9664b10d5eb4f = L.marker(
+                [45.390785382939, -122.623772473747],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_c65eed22d384114010d18f0a3e8d2bfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ccf9f6e936aae379b2704c7cf7d623f = $(`<div id="html_2ccf9f6e936aae379b2704c7cf7d623f" style="width: 100.0%; height: 100.0%;">SE Willamette Dr, Portland, Oregon, 97267</div>`)[0];
+                popup_c65eed22d384114010d18f0a3e8d2bfe.setContent(html_2ccf9f6e936aae379b2704c7cf7d623f);
+            
+        
+
+        marker_41619824f931c63b98b9664b10d5eb4f.bindPopup(popup_c65eed22d384114010d18f0a3e8d2bfe)
+        ;
+
+        
+    
+    
+            var marker_e8e2132a322a9464e26d9e5ea13268ee = L.marker(
+                [45.516018, -122.681425],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_c177e35e34f3699c269f279a9dc2d156 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83f93b688d3cfa87c8294162792efdb6 = $(`<div id="html_83f93b688d3cfa87c8294162792efdb6" style="width: 100.0%; height: 100.0%;">Portland, Oregon</div>`)[0];
+                popup_c177e35e34f3699c269f279a9dc2d156.setContent(html_83f93b688d3cfa87c8294162792efdb6);
+            
+        
+
+        marker_e8e2132a322a9464e26d9e5ea13268ee.bindPopup(popup_c177e35e34f3699c269f279a9dc2d156)
+        ;
+
+        
+    
+    
+            var marker_b7508163c18c45abdcde408e3fb8a466 = L.marker(
+                [45.437790545535, -122.692513221196],
+                {
+}
+            ).addTo(map_9ad4658b6c533ec7fec490fc7da4c227);
+        
+    
+        var popup_f0c8c10b19ca471597cf58c02dd11b25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8085478157a874444d4636443eb23d20 = $(`<div id="html_8085478157a874444d4636443eb23d20" style="width: 100.0%; height: 100.0%;">SW Boones Ferry Rd, Portland, Oregon, 97219</div>`)[0];
+                popup_f0c8c10b19ca471597cf58c02dd11b25.setContent(html_8085478157a874444d4636443eb23d20);
+            
+        
+
+        marker_b7508163c18c45abdcde408e3fb8a466.bindPopup(popup_f0c8c10b19ca471597cf58c02dd11b25)
+        ;
+
+        
+    
+</script>
+</html>
