@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1110fce799d42a1a012495f342c2c0a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1110fce799d42a1a012495f342c2c0a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1110fce799d42a1a012495f342c2c0a3 = L.map(
+                "map_1110fce799d42a1a012495f342c2c0a3",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f56705da58d95a8ad73f6b9eec61b9ab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f56705da58d95a8ad73f6b9eec61b9ab.addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+            var marker_e967dc969cd56c4d36def7f1bcfdf27f = L.marker(
+                [45.4749525, -122.8241032],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_5a954dc0d840eb896a73f433acb52bb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b8d60a2f931d0291940b8e797086cbb = $(`<div id="html_1b8d60a2f931d0291940b8e797086cbb" style="width: 100.0%; height: 100.0%;">14334 Sw Allen Boulevard, Oregon, USA</div>`)[0];
+                popup_5a954dc0d840eb896a73f433acb52bb3.setContent(html_1b8d60a2f931d0291940b8e797086cbb);
+            
+        
+
+        marker_e967dc969cd56c4d36def7f1bcfdf27f.bindPopup(popup_5a954dc0d840eb896a73f433acb52bb3)
+        ;
+
+        
+    
+    
+            var marker_7f511e351235585e3a00821bbc17f3f6 = L.marker(
+                [45.50848327368, -122.679523901399],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_628e7daf3be791950b5722000f5ad577 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25ef1acde0517dd8ea3e18cadc701dcb = $(`<div id="html_25ef1acde0517dd8ea3e18cadc701dcb" style="width: 100.0%; height: 100.0%;">2075 Sw 1St Avenue Suite 1B, Oregon, USA</div>`)[0];
+                popup_628e7daf3be791950b5722000f5ad577.setContent(html_25ef1acde0517dd8ea3e18cadc701dcb);
+            
+        
+
+        marker_7f511e351235585e3a00821bbc17f3f6.bindPopup(popup_628e7daf3be791950b5722000f5ad577)
+        ;
+
+        
+    
+    
+            var marker_492cb46dd65a180c70eca06626424fd7 = L.marker(
+                [45.4040247, -122.6218938],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_63e566b101e646a113082ad918e80421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d66118efec711336d2ca7334867278e8 = $(`<div id="html_d66118efec711336d2ca7334867278e8" style="width: 100.0%; height: 100.0%;">16550 Se Mcloughlin Boulevard, Oregon, USA</div>`)[0];
+                popup_63e566b101e646a113082ad918e80421.setContent(html_d66118efec711336d2ca7334867278e8);
+            
+        
+
+        marker_492cb46dd65a180c70eca06626424fd7.bindPopup(popup_63e566b101e646a113082ad918e80421)
+        ;
+
+        
+    
+    
+            var marker_f54abeb5178a9240e16e0241b464d84e = L.marker(
+                [45.548711840785, -122.661278342205],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_428cccd4a7bf1d3d211b110603dfe80f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d24ae4c18051a2854950cae70a468eb = $(`<div id="html_4d24ae4c18051a2854950cae70a468eb" style="width: 100.0%; height: 100.0%;">3532 Ne M L King Jr Boulevard Suite B, Oregon, USA</div>`)[0];
+                popup_428cccd4a7bf1d3d211b110603dfe80f.setContent(html_4d24ae4c18051a2854950cae70a468eb);
+            
+        
+
+        marker_f54abeb5178a9240e16e0241b464d84e.bindPopup(popup_428cccd4a7bf1d3d211b110603dfe80f)
+        ;
+
+        
+    
+    
+            var marker_3f016694c7a75891329d6971edd07b95 = L.marker(
+                [45.5303897, -122.6335668],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_5db10754234152563a3a0e3be0c9ed3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a72a1964fc53bc6d208749aee57b793 = $(`<div id="html_6a72a1964fc53bc6d208749aee57b793" style="width: 100.0%; height: 100.0%;">3028 Ne Sandy Boulevard, Oregon, USA</div>`)[0];
+                popup_5db10754234152563a3a0e3be0c9ed3b.setContent(html_6a72a1964fc53bc6d208749aee57b793);
+            
+        
+
+        marker_3f016694c7a75891329d6971edd07b95.bindPopup(popup_5db10754234152563a3a0e3be0c9ed3b)
+        ;
+
+        
+    
+    
+            var marker_3ddbfe95f2349ea343305ffab44e5bf4 = L.marker(
+                [41.328988172812, -91.536430521074],
+                {
+}
+            ).addTo(map_1110fce799d42a1a012495f342c2c0a3);
+        
+    
+        var popup_d1e93b636f5d6eb8c513a6cd83e577f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c77a2ff2310d9f97c196215d19b98c = $(`<div id="html_a3c77a2ff2310d9f97c196215d19b98c" style="width: 100.0%; height: 100.0%;">524 Main St Suite 1, Oregon, USA</div>`)[0];
+                popup_d1e93b636f5d6eb8c513a6cd83e577f1.setContent(html_a3c77a2ff2310d9f97c196215d19b98c);
+            
+        
+
+        marker_3ddbfe95f2349ea343305ffab44e5bf4.bindPopup(popup_d1e93b636f5d6eb8c513a6cd83e577f1)
+        ;
+
+        
+    
+</script>
+</html>
