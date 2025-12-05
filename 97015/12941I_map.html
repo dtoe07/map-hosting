@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ea2002c24f147746f4fd70c363c50fb9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ea2002c24f147746f4fd70c363c50fb9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ea2002c24f147746f4fd70c363c50fb9 = L.map(
+                "map_ea2002c24f147746f4fd70c363c50fb9",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4a8aab038cc060ab4d9808b92ed00b94 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4a8aab038cc060ab4d9808b92ed00b94.addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+            var marker_a2ed1bf3fb98b097c5b83ab01f75e265 = L.marker(
+                [45.4279287, -122.5394418],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_5726fd63a0867407805c27396d87e830 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab15016ce1d0c51d6b0a2527334343e3 = $(`<div id="html_ab15016ce1d0c51d6b0a2527334343e3" style="width: 100.0%; height: 100.0%;">12046 Se Sunnyside Rd, Oregon, USA</div>`)[0];
+                popup_5726fd63a0867407805c27396d87e830.setContent(html_ab15016ce1d0c51d6b0a2527334343e3);
+            
+        
+
+        marker_a2ed1bf3fb98b097c5b83ab01f75e265.bindPopup(popup_5726fd63a0867407805c27396d87e830)
+        ;
+
+        
+    
+    
+            var marker_d8a8ca75716c505fd03a78c629132aff = L.marker(
+                [45.444586, -122.6280883],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_6515f89a088f2b22138ae173b07fbd8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cdce1d1bf1e856c1ec25ac2235a941c = $(`<div id="html_2cdce1d1bf1e856c1ec25ac2235a941c" style="width: 100.0%; height: 100.0%;">10804 Se Oak St, Oregon, USA</div>`)[0];
+                popup_6515f89a088f2b22138ae173b07fbd8e.setContent(html_2cdce1d1bf1e856c1ec25ac2235a941c);
+            
+        
+
+        marker_d8a8ca75716c505fd03a78c629132aff.bindPopup(popup_6515f89a088f2b22138ae173b07fbd8e)
+        ;
+
+        
+    
+    
+            var marker_2fd2efe7af3487606384553e07bfbe18 = L.marker(
+                [45.505934043557, -122.495449093401],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_e899555619a667df41785ce9863348d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdfab2f89119f364be27c73845a594ff = $(`<div id="html_bdfab2f89119f364be27c73845a594ff" style="width: 100.0%; height: 100.0%;">16353 Se Division St Suite 100, Oregon, USA</div>`)[0];
+                popup_e899555619a667df41785ce9863348d7.setContent(html_bdfab2f89119f364be27c73845a594ff);
+            
+        
+
+        marker_2fd2efe7af3487606384553e07bfbe18.bindPopup(popup_e899555619a667df41785ce9863348d7)
+        ;
+
+        
+    
+    
+            var marker_7852e652e4f3a53412fed24fd7f2d619 = L.marker(
+                [45.4720949, -122.6488058],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_c5e71a842c6d960b77a65c2f8f1cb29a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_595a40cbe4d50dfb5dd4f380ed473229 = $(`<div id="html_595a40cbe4d50dfb5dd4f380ed473229" style="width: 100.0%; height: 100.0%;">7207 Se Milwaukie Avenue, Oregon, USA</div>`)[0];
+                popup_c5e71a842c6d960b77a65c2f8f1cb29a.setContent(html_595a40cbe4d50dfb5dd4f380ed473229);
+            
+        
+
+        marker_7852e652e4f3a53412fed24fd7f2d619.bindPopup(popup_c5e71a842c6d960b77a65c2f8f1cb29a)
+        ;
+
+        
+    
+    
+            var marker_381ee47860884feb7aa4cdf1f85c87bf = L.marker(
+                [45.517781402691, -122.562754434795],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_d658668447563710d1a238ec2f48a339 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8000ebb2dcd070e80fd05b0390401580 = $(`<div id="html_8000ebb2dcd070e80fd05b0390401580" style="width: 100.0%; height: 100.0%;">9738 Se Washington St Suite S, Oregon, USA</div>`)[0];
+                popup_d658668447563710d1a238ec2f48a339.setContent(html_8000ebb2dcd070e80fd05b0390401580);
+            
+        
+
+        marker_381ee47860884feb7aa4cdf1f85c87bf.bindPopup(popup_d658668447563710d1a238ec2f48a339)
+        ;
+
+        
+    
+    
+            var marker_7227ad55f9c7bad32e731e24487b00b4 = L.marker(
+                [45.5247275, -122.5397556],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_33d95685ea89924132deaf1dc83e2994 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f46bbea4e1624b8105c1aa481da4e7b6 = $(`<div id="html_f46bbea4e1624b8105c1aa481da4e7b6" style="width: 100.0%; height: 100.0%;">11936 Ne Glisan St, Oregon, USA</div>`)[0];
+                popup_33d95685ea89924132deaf1dc83e2994.setContent(html_f46bbea4e1624b8105c1aa481da4e7b6);
+            
+        
+
+        marker_7227ad55f9c7bad32e731e24487b00b4.bindPopup(popup_33d95685ea89924132deaf1dc83e2994)
+        ;
+
+        
+    
+    
+            var marker_6d322438b64879921e7e9af704e4bb38 = L.marker(
+                [45.5224906, -122.4777514],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_34a182442525c95b2dc72f4208278426 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ee5cba97d5076d9977b9318fa66e433 = $(`<div id="html_6ee5cba97d5076d9977b9318fa66e433" style="width: 100.0%; height: 100.0%;">7 Ne 181St Avenue, Oregon, USA</div>`)[0];
+                popup_34a182442525c95b2dc72f4208278426.setContent(html_6ee5cba97d5076d9977b9318fa66e433);
+            
+        
+
+        marker_6d322438b64879921e7e9af704e4bb38.bindPopup(popup_34a182442525c95b2dc72f4208278426)
+        ;
+
+        
+    
+    
+            var marker_0bfb3f09668d4afaf0ff086554441c61 = L.marker(
+                [45.4957868, -122.407675],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_dc137128e0744afe3896d5edb2d3e0a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4521ad3edda4eeff7d184ea4f0bdd027 = $(`<div id="html_4521ad3edda4eeff7d184ea4f0bdd027" style="width: 100.0%; height: 100.0%;">2414 Se Burnside Rd, Oregon, USA</div>`)[0];
+                popup_dc137128e0744afe3896d5edb2d3e0a7.setContent(html_4521ad3edda4eeff7d184ea4f0bdd027);
+            
+        
+
+        marker_0bfb3f09668d4afaf0ff086554441c61.bindPopup(popup_dc137128e0744afe3896d5edb2d3e0a7)
+        ;
+
+        
+    
+    
+            var marker_6764c8ee9ce847a1a9ff1294cc1c227d = L.marker(
+                [45.511378, -122.6548893],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_ab31d30b9cd1757a904d6203d489389d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad23464633125a09e3b5ad519c81835b = $(`<div id="html_ad23464633125a09e3b5ad519c81835b" style="width: 100.0%; height: 100.0%;">1601 Se 11Th Avenue, Oregon, USA</div>`)[0];
+                popup_ab31d30b9cd1757a904d6203d489389d.setContent(html_ad23464633125a09e3b5ad519c81835b);
+            
+        
+
+        marker_6764c8ee9ce847a1a9ff1294cc1c227d.bindPopup(popup_ab31d30b9cd1757a904d6203d489389d)
+        ;
+
+        
+    
+    
+            var marker_3b423d2a6302b53257b57d7a6f02d2ca = L.marker(
+                [45.4079177, -122.7241836],
+                {
+}
+            ).addTo(map_ea2002c24f147746f4fd70c363c50fb9);
+        
+    
+        var popup_3ff92ad4a5f598e6bc76aeffe91f72c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d82ae028225dba33d0f7aa9c1b2c2d25 = $(`<div id="html_d82ae028225dba33d0f7aa9c1b2c2d25" style="width: 100.0%; height: 100.0%;">16364 Boones Ferry Rd, Oregon, USA</div>`)[0];
+                popup_3ff92ad4a5f598e6bc76aeffe91f72c8.setContent(html_d82ae028225dba33d0f7aa9c1b2c2d25);
+            
+        
+
+        marker_3b423d2a6302b53257b57d7a6f02d2ca.bindPopup(popup_3ff92ad4a5f598e6bc76aeffe91f72c8)
+        ;
+
+        
+    
+</script>
+</html>
