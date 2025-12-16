@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d71966e1eb9beba301c75efde79947af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d71966e1eb9beba301c75efde79947af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d71966e1eb9beba301c75efde79947af = L.map(
+                "map_d71966e1eb9beba301c75efde79947af",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce3a24f0b341c98c08ae2cb255c52553 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ce3a24f0b341c98c08ae2cb255c52553.addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+            var marker_68938a0c9eac722bce699302db6ccc68 = L.marker(
+                [45.4916628, -122.4762092],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_6dc6497871b33e37dd5eabb3fee3600c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aebbeb0f15b47288128906d6042898e0 = $(`<div id="html_aebbeb0f15b47288128906d6042898e0" style="width: 100.0%; height: 100.0%;">4241 Se 182Nd Avenue, Oregon, USA</div>`)[0];
+                popup_6dc6497871b33e37dd5eabb3fee3600c.setContent(html_aebbeb0f15b47288128906d6042898e0);
+            
+        
+
+        marker_68938a0c9eac722bce699302db6ccc68.bindPopup(popup_6dc6497871b33e37dd5eabb3fee3600c)
+        ;
+
+        
+    
+    
+            var marker_c6fb5d951dc2d4bd998cb4a02cac0ee2 = L.marker(
+                [45.5303897, -122.633565],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_7f9ae59a90d531a4cac5975752d43cdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_630c4c7552116561886343e770f5665e = $(`<div id="html_630c4c7552116561886343e770f5665e" style="width: 100.0%; height: 100.0%;">3028 Ne Sandy Boulevard, Oregon, USA</div>`)[0];
+                popup_7f9ae59a90d531a4cac5975752d43cdf.setContent(html_630c4c7552116561886343e770f5665e);
+            
+        
+
+        marker_c6fb5d951dc2d4bd998cb4a02cac0ee2.bindPopup(popup_7f9ae59a90d531a4cac5975752d43cdf)
+        ;
+
+        
+    
+    
+            var marker_23e8e1bfef006336a469d607bbb9973c = L.marker(
+                [45.5625818, -122.6300818],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_43d1f1c27e8e7040574cc2e2d8667bca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03e22ae86e195539f9485da6d83ca552 = $(`<div id="html_03e22ae86e195539f9485da6d83ca552" style="width: 100.0%; height: 100.0%;">3334 Ne Killingsworth St, Oregon, USA</div>`)[0];
+                popup_43d1f1c27e8e7040574cc2e2d8667bca.setContent(html_03e22ae86e195539f9485da6d83ca552);
+            
+        
+
+        marker_23e8e1bfef006336a469d607bbb9973c.bindPopup(popup_43d1f1c27e8e7040574cc2e2d8667bca)
+        ;
+
+        
+    
+    
+            var marker_9badfc4b9dad67e760a52caa345bf648 = L.marker(
+                [45.5551892, -122.6669449],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_a928765a0f0a111cee5693964dc015c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f6fa4d221a1b624ce998051fcce0405 = $(`<div id="html_6f6fa4d221a1b624ce998051fcce0405" style="width: 100.0%; height: 100.0%;">4375 N Williams Avenue, Oregon, USA</div>`)[0];
+                popup_a928765a0f0a111cee5693964dc015c8.setContent(html_6f6fa4d221a1b624ce998051fcce0405);
+            
+        
+
+        marker_9badfc4b9dad67e760a52caa345bf648.bindPopup(popup_a928765a0f0a111cee5693964dc015c8)
+        ;
+
+        
+    
+    
+            var marker_fb922440e9f3e0e1d3a3b0000a5f6847 = L.marker(
+                [45.5012866, -122.5885932],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_b70ba816a3d9a909cc456ac693f963f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_870c0d84053e255856063b79dca804c8 = $(`<div id="html_870c0d84053e255856063b79dca804c8" style="width: 100.0%; height: 100.0%;">2905 Se 73Rd Avenue, Oregon, USA</div>`)[0];
+                popup_b70ba816a3d9a909cc456ac693f963f0.setContent(html_870c0d84053e255856063b79dca804c8);
+            
+        
+
+        marker_fb922440e9f3e0e1d3a3b0000a5f6847.bindPopup(popup_b70ba816a3d9a909cc456ac693f963f0)
+        ;
+
+        
+    
+    
+            var marker_f7ccbfeeadf17d154b1ea0d48e63b5df = L.marker(
+                [45.5167709, -122.900441],
+                {
+}
+            ).addTo(map_d71966e1eb9beba301c75efde79947af);
+        
+    
+        var popup_52a21ced9993cc6595ad5e2f010ded60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_883449694cecc5eeba4435d8cb87c99c = $(`<div id="html_883449694cecc5eeba4435d8cb87c99c" style="width: 100.0%; height: 100.0%;">7502 Ne Shaleen St, Oregon, USA</div>`)[0];
+                popup_52a21ced9993cc6595ad5e2f010ded60.setContent(html_883449694cecc5eeba4435d8cb87c99c);
+            
+        
+
+        marker_f7ccbfeeadf17d154b1ea0d48e63b5df.bindPopup(popup_52a21ced9993cc6595ad5e2f010ded60)
+        ;
+
+        
+    
+</script>
+</html>
