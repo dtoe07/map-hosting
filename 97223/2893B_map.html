@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_150881a6387f37f32fc71b7b1a27904c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_150881a6387f37f32fc71b7b1a27904c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_150881a6387f37f32fc71b7b1a27904c = L.map(
+                "map_150881a6387f37f32fc71b7b1a27904c",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0698cc943f3b71423625ea79cff0e4a2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0698cc943f3b71423625ea79cff0e4a2.addTo(map_150881a6387f37f32fc71b7b1a27904c);
+        
+    
+            var marker_575878771819c88c21e9abdd8d96d212 = L.marker(
+                [45.5012866, -122.5885932],
+                {
+}
+            ).addTo(map_150881a6387f37f32fc71b7b1a27904c);
+        
+    
+        var popup_bc6d401e45d1a5cdcdb6f50fe3dca90f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb8c1490a914263a8cb4adb07eb442b9 = $(`<div id="html_cb8c1490a914263a8cb4adb07eb442b9" style="width: 100.0%; height: 100.0%;">2905 Se 73Rd Avenue, Oregon, USA</div>`)[0];
+                popup_bc6d401e45d1a5cdcdb6f50fe3dca90f.setContent(html_cb8c1490a914263a8cb4adb07eb442b9);
+            
+        
+
+        marker_575878771819c88c21e9abdd8d96d212.bindPopup(popup_bc6d401e45d1a5cdcdb6f50fe3dca90f)
+        ;
+
+        
+    
+    
+            var marker_3725e468ef14181bc845760f33ca57fd = L.marker(
+                [45.5167709, -122.900441],
+                {
+}
+            ).addTo(map_150881a6387f37f32fc71b7b1a27904c);
+        
+    
+        var popup_923639744c42c8b052bc0881054cf129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66c7f18465bab1cb6b7130923ea342c2 = $(`<div id="html_66c7f18465bab1cb6b7130923ea342c2" style="width: 100.0%; height: 100.0%;">7502 Ne Shaleen St, Oregon, USA</div>`)[0];
+                popup_923639744c42c8b052bc0881054cf129.setContent(html_66c7f18465bab1cb6b7130923ea342c2);
+            
+        
+
+        marker_3725e468ef14181bc845760f33ca57fd.bindPopup(popup_923639744c42c8b052bc0881054cf129)
+        ;
+
+        
+    
+    
+            var marker_6f32eadb67e332ec51a387af767fdd9d = L.marker(
+                [45.5303897, -122.633565],
+                {
+}
+            ).addTo(map_150881a6387f37f32fc71b7b1a27904c);
+        
+    
+        var popup_fbafd7118d2b6575f42b32d4487f6f65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8df415f8aa0796b4373ebc7edf3d3f6 = $(`<div id="html_c8df415f8aa0796b4373ebc7edf3d3f6" style="width: 100.0%; height: 100.0%;">3028 Ne Sandy Boulevard, Oregon, USA</div>`)[0];
+                popup_fbafd7118d2b6575f42b32d4487f6f65.setContent(html_c8df415f8aa0796b4373ebc7edf3d3f6);
+            
+        
+
+        marker_6f32eadb67e332ec51a387af767fdd9d.bindPopup(popup_fbafd7118d2b6575f42b32d4487f6f65)
+        ;
+
+        
+    
+    
+            var marker_89c052e532cac9efd2334b2fe97345eb = L.marker(
+                [45.5551892, -122.6669449],
+                {
+}
+            ).addTo(map_150881a6387f37f32fc71b7b1a27904c);
+        
+    
+        var popup_3d4450af912402e44f9c4ef9389eca2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a0cccc54ac2016d15faff63f988b3b4 = $(`<div id="html_6a0cccc54ac2016d15faff63f988b3b4" style="width: 100.0%; height: 100.0%;">4375 N Williams Avenue, Oregon, USA</div>`)[0];
+                popup_3d4450af912402e44f9c4ef9389eca2c.setContent(html_6a0cccc54ac2016d15faff63f988b3b4);
+            
+        
+
+        marker_89c052e532cac9efd2334b2fe97345eb.bindPopup(popup_3d4450af912402e44f9c4ef9389eca2c)
+        ;
+
+        
+    
+</script>
+</html>
