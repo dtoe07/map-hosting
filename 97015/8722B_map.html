@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_96b88b7384792e97c3f58b3cf11b6154 {
+                #map_a6f3c0bc3c9e186587f508b7a00dfe6c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,19 +54,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_96b88b7384792e97c3f58b3cf11b6154" ></div>
+            <div class="folium-map" id="map_a6f3c0bc3c9e186587f508b7a00dfe6c" ></div>
         
 </body>
 <script>
     
     
-            var map_96b88b7384792e97c3f58b3cf11b6154 = L.map(
-                "map_96b88b7384792e97c3f58b3cf11b6154",
+            var map_a6f3c0bc3c9e186587f508b7a00dfe6c = L.map(
+                "map_a6f3c0bc3c9e186587f508b7a00dfe6c",
                 {
-                    center: [44.0, -120.5],
+                    center: [45.5202471, -122.674194],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 7,
+  "zoom": 10,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_ef0b4937d56aac621aa3993e1c96ec8b = L.tileLayer(
+            var tile_layer_44fe0d9303ea374cd5bc0c817945fac2 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,7 +95,79 @@
             );
         
     
-            tile_layer_ef0b4937d56aac621aa3993e1c96ec8b.addTo(map_96b88b7384792e97c3f58b3cf11b6154);
+            tile_layer_44fe0d9303ea374cd5bc0c817945fac2.addTo(map_a6f3c0bc3c9e186587f508b7a00dfe6c);
         
+    
+            var marker_2710580e15691cfba0f49083c4251a48 = L.marker(
+                [45.50848327368, -122.679523901399],
+                {
+}
+            ).addTo(map_a6f3c0bc3c9e186587f508b7a00dfe6c);
+        
+    
+        var popup_c87744b93a1288cbef88cad08c818b25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_495d894b0e01120ac6d123512ebe3915 = $(`<div id="html_495d894b0e01120ac6d123512ebe3915" style="width: 100.0%; height: 100.0%;">2075 Sw 1St Avenue Suite 1B, Oregon, USA</div>`)[0];
+                popup_c87744b93a1288cbef88cad08c818b25.setContent(html_495d894b0e01120ac6d123512ebe3915);
+            
+        
+
+        marker_2710580e15691cfba0f49083c4251a48.bindPopup(popup_c87744b93a1288cbef88cad08c818b25)
+        ;
+
+        
+    
+    
+            var marker_1bcacadb782b86f30b14d425a7abfadd = L.marker(
+                [45.1489976, -122.8331788],
+                {
+}
+            ).addTo(map_a6f3c0bc3c9e186587f508b7a00dfe6c);
+        
+    
+        var popup_7c3999cf88688d55dcfc412d33b09430 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f88b11caa104301907bd96ab4362e2f = $(`<div id="html_1f88b11caa104301907bd96ab4362e2f" style="width: 100.0%; height: 100.0%;">1515 N Pacific Highway, Oregon, USA</div>`)[0];
+                popup_7c3999cf88688d55dcfc412d33b09430.setContent(html_1f88b11caa104301907bd96ab4362e2f);
+            
+        
+
+        marker_1bcacadb782b86f30b14d425a7abfadd.bindPopup(popup_7c3999cf88688d55dcfc412d33b09430)
+        ;
+
+        
+    
+    
+            var marker_97583de9c6c64bc8ae10bf0069f217fa = L.marker(
+                [45.5186454, -123.0966884],
+                {
+}
+            ).addTo(map_a6f3c0bc3c9e186587f508b7a00dfe6c);
+        
+    
+        var popup_f02dcc40cd449362a5a225e6f4785b53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_610ce472d0b64bd91cb5323c4869773a = $(`<div id="html_610ce472d0b64bd91cb5323c4869773a" style="width: 100.0%; height: 100.0%;">2811 19Th Avenue, Oregon, USA</div>`)[0];
+                popup_f02dcc40cd449362a5a225e6f4785b53.setContent(html_610ce472d0b64bd91cb5323c4869773a);
+            
+        
+
+        marker_97583de9c6c64bc8ae10bf0069f217fa.bindPopup(popup_f02dcc40cd449362a5a225e6f4785b53)
+        ;
+
+        
+    
 </script>
 </html>
