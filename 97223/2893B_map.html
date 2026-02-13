@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_cfca6f7395d6cb17761673a3c7781cc4 {
+                #map_483f5bf4c2215fa1cafd149ad5f35b79 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,19 +54,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_cfca6f7395d6cb17761673a3c7781cc4" ></div>
+            <div class="folium-map" id="map_483f5bf4c2215fa1cafd149ad5f35b79" ></div>
         
 </body>
 <script>
     
     
-            var map_cfca6f7395d6cb17761673a3c7781cc4 = L.map(
-                "map_cfca6f7395d6cb17761673a3c7781cc4",
+            var map_483f5bf4c2215fa1cafd149ad5f35b79 = L.map(
+                "map_483f5bf4c2215fa1cafd149ad5f35b79",
                 {
-                    center: [44.0, -120.5],
+                    center: [45.5202471, -122.674194],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 7,
+  "zoom": 10,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_8dd65fec0c5f9c65f91924d9a23624dc = L.tileLayer(
+            var tile_layer_e3c7436a40654638155c6803cf752409 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,7 +95,55 @@
             );
         
     
-            tile_layer_8dd65fec0c5f9c65f91924d9a23624dc.addTo(map_cfca6f7395d6cb17761673a3c7781cc4);
+            tile_layer_e3c7436a40654638155c6803cf752409.addTo(map_483f5bf4c2215fa1cafd149ad5f35b79);
         
+    
+            var marker_cf7ac269b4abb91c8670dd5252299a81 = L.marker(
+                [45.478951691407, -122.694631778959],
+                {
+}
+            ).addTo(map_483f5bf4c2215fa1cafd149ad5f35b79);
+        
+    
+        var popup_5cb3cf313ac1514e0ddbf83127869e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d60d8d20b78ccb1b1f27fbf93d33c23b = $(`<div id="html_d60d8d20b78ccb1b1f27fbf93d33c23b" style="width: 100.0%; height: 100.0%;">6327 Sw Capitol Highway Suite D, Oregon, USA</div>`)[0];
+                popup_5cb3cf313ac1514e0ddbf83127869e6a.setContent(html_d60d8d20b78ccb1b1f27fbf93d33c23b);
+            
+        
+
+        marker_cf7ac269b4abb91c8670dd5252299a81.bindPopup(popup_5cb3cf313ac1514e0ddbf83127869e6a)
+        ;
+
+        
+    
+    
+            var marker_12b555275015b5f9e66db7ae44fc2152 = L.marker(
+                [45.444586, -122.6280883],
+                {
+}
+            ).addTo(map_483f5bf4c2215fa1cafd149ad5f35b79);
+        
+    
+        var popup_bc122a304ab61e5a7310e230ef2d69e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b703d431a8dd76ea74f3bfee813554c = $(`<div id="html_1b703d431a8dd76ea74f3bfee813554c" style="width: 100.0%; height: 100.0%;">10804 Se Oak St, Oregon, USA</div>`)[0];
+                popup_bc122a304ab61e5a7310e230ef2d69e4.setContent(html_1b703d431a8dd76ea74f3bfee813554c);
+            
+        
+
+        marker_12b555275015b5f9e66db7ae44fc2152.bindPopup(popup_bc122a304ab61e5a7310e230ef2d69e4)
+        ;
+
+        
+    
 </script>
 </html>
