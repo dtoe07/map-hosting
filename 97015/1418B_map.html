@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_404f94c235f8d709f5d5032eb567374b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_404f94c235f8d709f5d5032eb567374b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_404f94c235f8d709f5d5032eb567374b = L.map(
+                "map_404f94c235f8d709f5d5032eb567374b",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a6ee816f27cebb0a9ba7f73bd7d60f4a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a6ee816f27cebb0a9ba7f73bd7d60f4a.addTo(map_404f94c235f8d709f5d5032eb567374b);
+        
+    
+            var marker_56857d23ddcb2ec426d72462831d5f17 = L.marker(
+                [45.444586, -122.6280883],
+                {
+}
+            ).addTo(map_404f94c235f8d709f5d5032eb567374b);
+        
+    
+        var popup_ab05e4c4c33d16c66993311ce775f63a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70c2282eb3de7880f9d18d32aa2d1991 = $(`<div id="html_70c2282eb3de7880f9d18d32aa2d1991" style="width: 100.0%; height: 100.0%;">10804 Se Oak St, Oregon, USA</div>`)[0];
+                popup_ab05e4c4c33d16c66993311ce775f63a.setContent(html_70c2282eb3de7880f9d18d32aa2d1991);
+            
+        
+
+        marker_56857d23ddcb2ec426d72462831d5f17.bindPopup(popup_ab05e4c4c33d16c66993311ce775f63a)
+        ;
+
+        
+    
+    
+            var marker_73afc834cfa24370ce216f7c94dbe3c3 = L.marker(
+                [45.4975091, -122.6694815],
+                {
+}
+            ).addTo(map_404f94c235f8d709f5d5032eb567374b);
+        
+    
+        var popup_f3d1d0352dee0d83bc8649562bbb3de0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_225b8ccb75b03aad22a88c5fa0219592 = $(`<div id="html_225b8ccb75b03aad22a88c5fa0219592" style="width: 100.0%; height: 100.0%;">3550 S River Pkwy, Oregon, USA</div>`)[0];
+                popup_f3d1d0352dee0d83bc8649562bbb3de0.setContent(html_225b8ccb75b03aad22a88c5fa0219592);
+            
+        
+
+        marker_73afc834cfa24370ce216f7c94dbe3c3.bindPopup(popup_f3d1d0352dee0d83bc8649562bbb3de0)
+        ;
+
+        
+    
+    
+            var marker_1655880b6d3b7e4d50c55485c2bd020d = L.marker(
+                [45.4878463, -122.7952435],
+                {
+}
+            ).addTo(map_404f94c235f8d709f5d5032eb567374b);
+        
+    
+        var popup_558dfcf2a4477dc7e4a1641fa211a536 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba17a9038b066bef8dd88f7387a5ba45 = $(`<div id="html_ba17a9038b066bef8dd88f7387a5ba45" style="width: 100.0%; height: 100.0%;">11423 Sw Beaverton Hillsdale Highway, Oregon, USA</div>`)[0];
+                popup_558dfcf2a4477dc7e4a1641fa211a536.setContent(html_ba17a9038b066bef8dd88f7387a5ba45);
+            
+        
+
+        marker_1655880b6d3b7e4d50c55485c2bd020d.bindPopup(popup_558dfcf2a4477dc7e4a1641fa211a536)
+        ;
+
+        
+    
+    
+            var marker_88dc5ad67790823a7551d9dc75299470 = L.marker(
+                [45.5376079, -122.8673787],
+                {
+}
+            ).addTo(map_404f94c235f8d709f5d5032eb567374b);
+        
+    
+        var popup_e90f55f4df52017ce82e2cb73c92bf2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44055076e36c146915e11ce68aa1cfd8 = $(`<div id="html_44055076e36c146915e11ce68aa1cfd8" style="width: 100.0%; height: 100.0%;">2479 Nw 185Th Avenue, Oregon, USA</div>`)[0];
+                popup_e90f55f4df52017ce82e2cb73c92bf2e.setContent(html_44055076e36c146915e11ce68aa1cfd8);
+            
+        
+
+        marker_88dc5ad67790823a7551d9dc75299470.bindPopup(popup_e90f55f4df52017ce82e2cb73c92bf2e)
+        ;
+
+        
+    
+</script>
+</html>
