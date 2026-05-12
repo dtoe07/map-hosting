@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f9b57ab595e5eb578ab3c54e0648fb2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f9b57ab595e5eb578ab3c54e0648fb2a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f9b57ab595e5eb578ab3c54e0648fb2a = L.map(
+                "map_f9b57ab595e5eb578ab3c54e0648fb2a",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f7a6b978b5f119535c4430831215d04 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4f7a6b978b5f119535c4430831215d04.addTo(map_f9b57ab595e5eb578ab3c54e0648fb2a);
+        
+    
+            var marker_e7f401adfdea589690aa8a40cb8579da = L.marker(
+                [45.5551892, -122.6669449],
+                {
+}
+            ).addTo(map_f9b57ab595e5eb578ab3c54e0648fb2a);
+        
+    
+        var popup_eb07fe1554a79e3fbba482111e5f7d4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d0cf9a43062c64031c8e42fcf049e8f = $(`<div id="html_2d0cf9a43062c64031c8e42fcf049e8f" style="width: 100.0%; height: 100.0%;">4375 N Williams Avenue, Oregon, USA</div>`)[0];
+                popup_eb07fe1554a79e3fbba482111e5f7d4d.setContent(html_2d0cf9a43062c64031c8e42fcf049e8f);
+            
+        
+
+        marker_e7f401adfdea589690aa8a40cb8579da.bindPopup(popup_eb07fe1554a79e3fbba482111e5f7d4d)
+        ;
+
+        
+    
+    
+            var marker_5961977b0f904a395b6b4c2f381a3af6 = L.marker(
+                [45.5268176, -122.8161676],
+                {
+}
+            ).addTo(map_f9b57ab595e5eb578ab3c54e0648fb2a);
+        
+    
+        var popup_8c8edae50709e5729d0d5eb29937d7e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93c67389fc1d22c0946b2ec0c077f034 = $(`<div id="html_93c67389fc1d22c0946b2ec0c077f034" style="width: 100.0%; height: 100.0%;">13528 Nw Cornell Rd, Oregon, USA</div>`)[0];
+                popup_8c8edae50709e5729d0d5eb29937d7e9.setContent(html_93c67389fc1d22c0946b2ec0c077f034);
+            
+        
+
+        marker_5961977b0f904a395b6b4c2f381a3af6.bindPopup(popup_8c8edae50709e5729d0d5eb29937d7e9)
+        ;
+
+        
+    
+</script>
+</html>
