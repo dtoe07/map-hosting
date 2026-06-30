@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35bf887668594b0afd3fe992d6541d5c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35bf887668594b0afd3fe992d6541d5c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35bf887668594b0afd3fe992d6541d5c = L.map(
+                "map_35bf887668594b0afd3fe992d6541d5c",
+                {
+                    center: [45.5202471, -122.674194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac4c6cd2732752f6ed3da07c0613abdf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ac4c6cd2732752f6ed3da07c0613abdf.addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+            var marker_441ec008869042d1922b9e7d3ee51dd6 = L.marker(
+                [45.364243418614, -122.646811093505],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_a8221de65d61eee1c23812927b944faa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2102386c143dbd682c8077dcf976eef2 = $(`<div id="html_2102386c143dbd682c8077dcf976eef2" style="width: 100.0%; height: 100.0%;">21130 S Salamo Rd, Oregon, USA</div>`)[0];
+                popup_a8221de65d61eee1c23812927b944faa.setContent(html_2102386c143dbd682c8077dcf976eef2);
+            
+        
+
+        marker_441ec008869042d1922b9e7d3ee51dd6.bindPopup(popup_a8221de65d61eee1c23812927b944faa)
+        ;
+
+        
+    
+    
+            var marker_f3521809ea938cc7f82468322fec2691 = L.marker(
+                [45.533411, -122.556427],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_3afa778610bd9506903fe2ec493bcfb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f020d078728184fa252fda3fb1da2f81 = $(`<div id="html_f020d078728184fa252fda3fb1da2f81" style="width: 100.0%; height: 100.0%;">10320 Ne Halsey St, Oregon, USA</div>`)[0];
+                popup_3afa778610bd9506903fe2ec493bcfb8.setContent(html_f020d078728184fa252fda3fb1da2f81);
+            
+        
+
+        marker_f3521809ea938cc7f82468322fec2691.bindPopup(popup_3afa778610bd9506903fe2ec493bcfb8)
+        ;
+
+        
+    
+    
+            var marker_6e752ae3dd455dd47ac7d176f55b509a = L.marker(
+                [45.5347503, -122.6568182],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_8cffd06d831665a58a0aec622c3eb928 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1ccece45347428282bbe4acb12a123a = $(`<div id="html_c1ccece45347428282bbe4acb12a123a" style="width: 100.0%; height: 100.0%;">1621 Ne 9Th Avenue, Oregon, USA</div>`)[0];
+                popup_8cffd06d831665a58a0aec622c3eb928.setContent(html_c1ccece45347428282bbe4acb12a123a);
+            
+        
+
+        marker_6e752ae3dd455dd47ac7d176f55b509a.bindPopup(popup_8cffd06d831665a58a0aec622c3eb928)
+        ;
+
+        
+    
+    
+            var marker_6db97d1d2fbb3a7fb9aa9ba98005155d = L.marker(
+                [45.5625818, -122.6300818],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_fc9a89087ba4a4a8ded18306af1d8775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fd0ca960e79e7893fe8254683a40c83 = $(`<div id="html_5fd0ca960e79e7893fe8254683a40c83" style="width: 100.0%; height: 100.0%;">3334 Ne Killingsworth St, Oregon, USA</div>`)[0];
+                popup_fc9a89087ba4a4a8ded18306af1d8775.setContent(html_5fd0ca960e79e7893fe8254683a40c83);
+            
+        
+
+        marker_6db97d1d2fbb3a7fb9aa9ba98005155d.bindPopup(popup_fc9a89087ba4a4a8ded18306af1d8775)
+        ;
+
+        
+    
+    
+            var marker_b75a4ff2595e51e296dd7b50558eefe3 = L.marker(
+                [45.5551892, -122.6669449],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_59a08bb173c0c2be04d8541949dce511 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e18d9a1454ec61f73cc846f9e0442ab = $(`<div id="html_5e18d9a1454ec61f73cc846f9e0442ab" style="width: 100.0%; height: 100.0%;">4375 N Williams Avenue, Oregon, USA</div>`)[0];
+                popup_59a08bb173c0c2be04d8541949dce511.setContent(html_5e18d9a1454ec61f73cc846f9e0442ab);
+            
+        
+
+        marker_b75a4ff2595e51e296dd7b50558eefe3.bindPopup(popup_59a08bb173c0c2be04d8541949dce511)
+        ;
+
+        
+    
+    
+            var marker_da1e21dbbf6d3b5de3481e120a347a25 = L.marker(
+                [45.4984655, -122.7670725],
+                {
+}
+            ).addTo(map_35bf887668594b0afd3fe992d6541d5c);
+        
+    
+        var popup_998955d8b9696baf523b1bb1b7758af7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dfa3aaf551aafb696c035b5151b92a1 = $(`<div id="html_3dfa3aaf551aafb696c035b5151b92a1" style="width: 100.0%; height: 100.0%;">8765 Sw Canyon Ln, Oregon, USA</div>`)[0];
+                popup_998955d8b9696baf523b1bb1b7758af7.setContent(html_3dfa3aaf551aafb696c035b5151b92a1);
+            
+        
+
+        marker_da1e21dbbf6d3b5de3481e120a347a25.bindPopup(popup_998955d8b9696baf523b1bb1b7758af7)
+        ;
+
+        
+    
+</script>
+</html>
